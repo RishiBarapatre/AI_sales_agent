@@ -59,8 +59,8 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 
 # 4. Configure environment variables
-cp .env.example .env          # macOS/Linux
-# copy .env.example .env        # Windows (cmd)
+# cp .env.example .env          # macOS/Linux
+copy .env.example .env        # Windows (cmd)
 # Edit .env and add your API key
 ```
 
