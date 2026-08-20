@@ -1,0 +1,23 @@
+# Git ignore for Northstar Homes AI Agent
+
+# Environment
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+read_pdf.py
+*.log
