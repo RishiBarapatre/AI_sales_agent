@@ -59,6 +59,8 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 
 # 4. Configure environment variables
+cp .env.example .env          # macOS/Linux
+# copy .env.example .env        # Windows (cmd)
 # Edit .env and add your API key
 ```
 
@@ -81,7 +83,7 @@ Then open your browser to **http://localhost:8501**
 ### Run Test Cases
 
 Either:
-- Click **"▶️ Run All Tests"** in the Streamlit sidebar, or
+- Click **"Run All Tests"** in the Streamlit sidebar, or
 - Visit `http://localhost:8000/api/test` directly
 
 ---
