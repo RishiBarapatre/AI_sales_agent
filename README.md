@@ -6,7 +6,7 @@ The agent communicates naturally in **English, Hindi, and Hinglish**, and is des
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌──────────────────┐         HTTP/REST          ┌────────────────────────────┐
@@ -37,7 +37,7 @@ The agent communicates naturally in **English, Hindi, and Hinglish**, and is des
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 - Python 3.10+
@@ -47,7 +47,7 @@ The agent communicates naturally in **English, Hindi, and Hinglish**, and is des
 
 ```bash
 # 1. Clone the repository
-git clone <repo-url>
+git clone https://github.com/RishiBarapatre/AI_sales_agent.git
 cd huvo-assignment
 
 # 2. Create a virtual environment (recommended)
@@ -86,7 +86,7 @@ Either:
 
 ---
 
-## 📝 Prompt Approach
+## Prompt Approach
 
 The system prompt (`prompt.md` / `backend/prompt.py`) is designed with these principles:
 
@@ -98,7 +98,7 @@ The system prompt (`prompt.md` / `backend/prompt.py`) is designed with these pri
 
 ---
 
-## 🧪 Test Cases
+## Test Cases
 
 | # | Scenario | What it Tests |
 |---|----------|---------------|
@@ -113,7 +113,7 @@ The system prompt (`prompt.md` / `backend/prompt.py`) is designed with these pri
 
 ---
 
-## 📋 Key Assumptions
+## Key Assumptions
 
 1. **In-memory sessions:** Conversation history is stored in-memory on the FastAPI server. Restarting the server clears all sessions. This is acceptable for a demo/assignment scope.
 2. **Simulated booking:** Site-visit booking is simulated with a ~20% random failure rate to demonstrate error handling.
@@ -122,7 +122,7 @@ The system prompt (`prompt.md` / `backend/prompt.py`) is designed with these pri
 
 ---
 
-## ⚠️ Known Limitations
+## Known Limitations
 
 1. **No persistent storage:** Sessions are lost on server restart (in-memory only).
 2. **No real booking system:** Booking is simulated — in production, this would integrate with a CRM.
@@ -132,7 +132,7 @@ The system prompt (`prompt.md` / `backend/prompt.py`) is designed with these pri
 
 ---
 
-## 🤖 AI Tools Used
+## AI Tools Used
 
 - **LangChain** — Chat agent framework, message types, tool calling, and memory management
 - **Google Gemini API** — Primary LLM for conversational responses and analytics extraction
@@ -141,7 +141,7 @@ The system prompt (`prompt.md` / `backend/prompt.py`) is designed with these pri
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── backend/
